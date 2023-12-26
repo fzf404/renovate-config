@@ -1,6 +1,7 @@
 {
   "extends": [
     "config:recommended",
+    "group:allNonMajor",
     ":disableDependencyDashboard"
   ],
   "labels": ["dependencies"]

@@ -4,6 +4,12 @@
     "group:allNonMajor",
     ":disableDependencyDashboard"
   ],
-  "rangeStrategy": "bump",
-  "labels": ["dependencies"]
+  "labels": ["dependencies"],
+  "packageRules": [
+    {
+      "depTypeList": ["peerDependencies"],
+      "enabled": false
+    }
+  ],
+  "rangeStrategy": "bump"
 }
